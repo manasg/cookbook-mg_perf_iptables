@@ -1,0 +1,4 @@
+*.swp
+Berksfile.lock
+.kitchen/
+golang_ws

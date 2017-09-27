@@ -1,0 +1,4 @@
+#!/bin/sh
+exec 2>&1
+ulimit -n 500000
+exec <%= node['http_server_bin'] %> <%= node['http_server_listen'] %>
